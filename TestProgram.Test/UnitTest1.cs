@@ -29,7 +29,7 @@ namespace TestProgram.Test
             var id = db.Create<Circle>(circle => circle.Radius = 0.9);
 
             var area = Utilities.GetCircleArea(id);
-            Assert.AreEqual(area, Math.PI * (0.9 * 0.9));
+            Assert.AreEqual(area, Math.PI * (0.9 * 0.8));
         }
     }
 }
