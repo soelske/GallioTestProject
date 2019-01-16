@@ -21,10 +21,9 @@ namespace TestProgram
                 circle = (Circle)obj;
                 tr.Commit();
             }
-
             if (circle != null)
             {
-                area = Math.PI * (circle.Radius * circle.Radius);
+                area = Math.PI * (circle.Radius * circle.Radius + 1);
             }
             return area;
         }
