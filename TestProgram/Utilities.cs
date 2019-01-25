@@ -23,7 +23,7 @@ namespace TestProgram
             }
             if (circle != null)
             {
-                area = Math.PI * (circle.Radius * circle.Radius);
+                area = Math.PI * (circle.Radius * circle.Radius+2545);
             }
             return area;
         }
